@@ -1,21 +1,51 @@
+/*  Background: #1A132F
+    Background Accent: #5B7DB1
+    Lt Blue: #61A4BC
+    Lt. Gray: #F7E2E2
+*/
+
 body {
-    background-color:#000;
+    background-color: #141414;
     max-width: 960px;
     margin: auto;
+    height: 100vh;
+    padding: 1pt;
 }
 
 * {
-    color: #fff;
+    color: #F7E2E2;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#cat {
-    max-width: 960px;
 }
 
 hr {
-    margin: 32pt 0 32pt 0;
+    margin: 32pt auto 32pt auto;
+    width: 90%
+}
+
+header {
+    background-color: #202020;
+    overflow: auto;
+}
+
+header img {
+    float: left;
+    padding: 10pt;
 }
 
 footer {
+    background-color: #202020;
     text-align: center;
+    padding: 5pt 0 5pt 0;
+    margin-top: 50pt;
 }
+
+hr {
+    height: 1px;
+    background-color: #ffffff;
+    border: none;
+}
+
+#portrait {
+    max-width: 200px;
+}
+
